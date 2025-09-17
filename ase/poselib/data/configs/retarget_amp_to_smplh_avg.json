@@ -1,0 +1,28 @@
+{
+    "source_motion": "data/01_01_cmu_amp.npy",
+    "target_motion_path": "data/01_01_cmu_smplh.npy",
+    "source_tpose": "data/amp_humanoid_tpose.npy",
+    "target_tpose": "data/smplh_avg_tpose.npy",
+    "joint_mapping": {
+        "pelvis": "f_avg_Pelvis",
+        "left_thigh": "f_avg_L_Hip",
+        "left_shin": "f_avg_L_Knee",
+        "left_foot": "f_avg_L_Ankle",
+        "right_thigh": "f_avg_R_Hip",
+        "right_shin": "f_avg_R_Knee",
+        "right_foot": "f_avg_R_Ankle",
+        "torso": "f_avg_Spine1",
+        "head": "f_avg_Head",
+        "left_upper_arm": "f_avg_L_Shoulder",
+        "left_lower_arm": "f_avg_L_Elbow",
+        "left_hand": "f_avg_L_Wrist",
+        "right_upper_arm":"f_avg_R_Shoulder" ,
+        "right_lower_arm": "f_avg_R_Elbow",
+        "right_hand":"f_avg_R_Wrist"
+    },
+    "rotation": [0,0,0,1],
+    "scale": 1,
+    "root_height_offset": 0.0,
+    "trim_frame_beg": 0,
+    "trim_frame_end": -1
+}

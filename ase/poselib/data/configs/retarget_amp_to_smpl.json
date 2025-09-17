@@ -1,0 +1,28 @@
+{
+    "source_motion": "data/luca_6.npy",
+    "target_motion_path": "data/luca_6_smpl.npy",
+    "source_tpose": "data/amass_tpose.npy",
+    "target_tpose": "data/amp_humanoid_tpose.npy",
+    "joint_mapping": {
+        "root": "pelvis",
+        "joint_left_hip": "left_thigh",
+        "joint_left_knee": "left_shin",
+        "joint_left_ankle": "left_foot",
+        "joint_right_hip": "right_thigh",
+        "joint_right_knee": "right_shin",
+        "joint_right_ankle": "right_foot",
+        "chest": "torso",
+        "joint_neck": "head",
+        "joint_left_shoulder": "left_upper_arm",
+        "joint_left_elbow": "left_lower_arm",
+        "left_wrist": "left_hand",
+        "joint_right_shoulder": "right_upper_arm",
+        "joint_right_elbow": "right_lower_arm",
+        "right_wrist": "right_hand"
+    },
+    "rotation": [0.5, 0.5, 0.5, 0.5],
+    "scale": 1,
+    "root_height_offset": 0.0,
+    "trim_frame_beg": 0,
+    "trim_frame_end": -1
+}

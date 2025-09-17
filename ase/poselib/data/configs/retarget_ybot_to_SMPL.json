@@ -1,0 +1,38 @@
+{
+    "source_motion": "xxx",
+    "target_motion_path": "xxx",
+    "source_tpose": "data/ybot_tpose.npy",
+    "target_tpose": "data/smpl_humanoid.npy",
+    "joint_mapping": {
+        "m_avg_Pelvis":"Pelvis",
+        "m_avg_L_Hip":"L_Hip",
+        "m_avg_L_Knee":"L_Knee",
+        "m_avg_L_Ankle":"L_Ankle",
+        "m_avg_L_Foot":"L_Toe",
+        "m_avg_R_Hip":"R_Hip",
+        "m_avg_R_Knee":"R_Knee",
+        "m_avg_R_Ankle":"R_Ankle",
+        "m_avg_R_Foot":"R_Toe",
+        "m_avg_Spine1":"Torso",
+        "m_avg_Spine2":"Spine",
+        "m_avg_Spine3":"Chest",
+        "m_avg_Neck":"Neck",
+        "m_avg_Head":"Head",
+        "m_avg_L_Collar":"L_Thorax",
+        "m_avg_L_Shoulder":"L_Shoulder",
+        "m_avg_L_Elbow":"L_Elbow",
+        "m_avg_L_Wrist":"L_Wrist",
+        "m_avg_R_Collar":"R_Thorax",
+        "m_avg_R_Shoulder":"R_Shoulder",
+        "m_avg_R_Elbow":"R_Elbow",
+        "m_avg_R_Wrist":"R_Wrist",
+        "m_avg_R_Hand":"R_Hand",
+        "m_avg_L_Hand":"L_Hand"
+
+    },
+    "rotation": [0.5, 0.5, 0.5, 0.5],
+    "scale": 1,
+    "root_height_offset": 0.0,
+    "trim_frame_beg": 0,
+    "trim_frame_end": -1
+}

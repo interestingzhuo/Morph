@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 First, an Morph model can be trained to imitate a dataset of motions clips using the following command:
 ```
-horovodrun -np 8 python ase/run.py --task HumanoidLocationSMPL --cfg_env ase/data/cfg/humanoid_smpl_location.yaml --cfg_train ase/data/cfg/train/rlg/smpl_humanoid_task.yaml --motion_file ase/data/motions/motions_amass_test_0.npy --headless
+horovodrun -np 8 python ase/run.py --task HumanoidLocationSMPL --cfg_env ase/data/cfg/humanoid_smpl_location.yaml --cfg_train ase/data/cfg/train/rlg/smpl_humanoid_task.yaml --motion_file ase/data/motions/WalkDog.npy --headless
 ```
 `--motion_file` can be used to specify a dataset of motion clips that the model should imitate. 
 The task `HumanoidLocationSMPL` will train a model to imitate a dataset of motion clips.

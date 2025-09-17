@@ -44,3 +44,29 @@ python ase/run.py --test --task HumanoidViewMotion --num_envs 2 --cfg_env ase/da
 `--motion_file` can be used to visualize a single motion clip `.npy`
 
 If you want to load new motion clips to the character, you can take a look at an example script in `ase/poselib/load_motion.py`.
+
+
+
+### Citation
+
+If you find this work useful for your research, please cite our paper:
+```
+@article{li2024morph,
+  title={Morph: A Motion-free Physics Optimization Framework for Human Motion Generation},
+  author={Li, Zhuo and Luo, Mingshuang and Hou, Ruibing and Zhao, Xin and Liu, Hao and Chang, Hong and Liu, Zimo and Li, Chen},
+  journal={arXiv preprint arXiv:2411.14951},
+  year={2024}
+}
+```
+
+Also consider citing these prior works that are used in this project:
+```
+@article{luo2024m,
+  title={M $\^{} 3$ GPT: An Advanced Multimodal, Multitask Framework for Motion Comprehension and Generation},
+  author={Luo, Mingshuang and Hou, Ruibing and Li, Zhuo and Chang, Hong and Liu, Zimo and Wang, Yaowei and Shan, Shiguang},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={28051--28077},
+  year={2024}
+}
+```

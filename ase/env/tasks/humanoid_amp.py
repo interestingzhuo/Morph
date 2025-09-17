@@ -44,7 +44,7 @@ from isaacgym.torch_utils import *
 
 from utils import torch_utils
 
-skeleton_tree = np.load("/mnt/chongqinggeminiceph1fs/geminicephfs/mm-base-vision/albertzli/code/mf/ase/data/assets/skeleton_tree_smpl.npy", allow_pickle=True).item()
+skeleton_tree = np.load("ase/data/assets/skeleton_tree_smpl.npy", allow_pickle=True).item()
 class HumanoidAMP(Humanoid):
     class StateInit(Enum):
         Default = 0

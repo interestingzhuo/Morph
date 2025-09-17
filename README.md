@@ -31,7 +31,7 @@ Over the course of training, the latest checkpoint `Humanoid.pth` will be regula
 along with a Tensorboard log. `--headless` is used to disable visualizations. If you want to view the
 simulation, simply remove this flag. To test a trained model, use the following command:
 ```
-python ase/run.py --test --task HumanoidLocationSMPL --num_envs 16 --cfg_env ase/data/cfg/humanoid_smpl_location.yaml --cfg_train ase/data/cfg/train/rlg/smpl_humanoid_task.yaml --motion_file ase/data/motions/motions_amass_test_0.npy --checkpoint [path_to_ase_checkpoint]
+python ase/run.py --test --task HumanoidLocationSMPL --num_envs 16 --cfg_env ase/data/cfg/humanoid_smpl_location.yaml --cfg_train ase/data/cfg/train/rlg/smpl_humanoid_task.yaml --motion_file ase/data/motions/motions_amass_test_0.npy --checkpoint output/Humanoid_19-02-01-38/nn/Humanoid.pth
 ```
 
 
@@ -39,7 +39,7 @@ python ase/run.py --test --task HumanoidLocationSMPL --num_envs 16 --cfg_env ase
 
 Motion clips are located in `ase/data/motions/`. Individual motion clips are stored as `.npy` files.  Motion clips can be visualized with the following command:
 ```
-python ase/run.py --test --task HumanoidViewMotion --num_envs 2 --cfg_env ase/data/cfg/humanoid.yaml --cfg_train ase/data/cfg/train/rlg/smpl_humanoid.yaml --motion_file ase/data/motions/motions_amass_test_0.npy
+python ase/run.py --test --task HumanoidViewMotion --num_envs 2 --cfg_env ase/data/cfg/humanoid.yaml --cfg_train ase/data/cfg/train/rlg/amp_humanoid.yaml --motion_file ase/data/motions/motions_amass_test_0.npy
 ```
 `--motion_file` can be used to visualize a single motion clip `.npy`
 

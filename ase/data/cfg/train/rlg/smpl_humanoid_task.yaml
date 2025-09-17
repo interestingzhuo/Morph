@@ -45,7 +45,7 @@ params:
   config:
     name: Humanoid
     env_name: rlgpu
-    multi_gpu: True
+    multi_gpu: False
     ppo: True
     mixed_precision: False
     normalize_input: True

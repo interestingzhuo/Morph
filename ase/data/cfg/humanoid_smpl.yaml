@@ -1,15 +1,15 @@
 # if given, will override the device setting in gym. 
 env: 
-  numEnvs: 4096
+  numEnvs: 8192
   envSpacing: 5
-  episodeLength: 300
+  episodeLength: 10000
   isFlagrun: False
   enableDebugVis: False
   
   pdControl: True
   powerScale: 1.0
   controlFrequencyInv: 2 # 30 Hz
-  stateInit: "Random"
+  stateInit: "Start"
   hybridInitProb: 0.5
   numAMPObsSteps: 10
 
@@ -18,7 +18,15 @@ env:
   contactBodies: ["R_Toe", "L_Toe"]
   rootBodies: "Pelvis"
   terminationHeight: 0.15
+  terminationDistance: 0.5
   enableEarlyTermination: True
+
+  tarSpeed: 1.0
+  tarChangeStepsMin: 100
+  tarChangeStepsMax: 300
+  tarDistMax: 10.0
+  enableTaskObs: True
+
 
   asset:
     assetRoot: "ase/data/assets"

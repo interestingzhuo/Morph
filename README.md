@@ -2,8 +2,7 @@
 
 Code accompanying the paper:
 "Morph: A Motion-free Physics Optimization Framework for Human Motion Generation" \
-(https://interestingzhuo.github.io/projects/morph/index.html) \
-![Skills](images/ase_teaser.png)
+(https://interestingzhuo.github.io/projects/morph/index.html) 
 
 
 ### Installation

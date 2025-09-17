@@ -84,10 +84,6 @@ def load_motion(final_trans, final_poses, dst_path):
 
 
     # 站立帧
-
-    # if not (pose[2][0] < 15 and pose[6][0] < 15 and abs(pose[1][0] + pose[5][0]) < 20
-    #                 and abs(pose[1][2] + pose[5][2]) < 20):
-    #     continue
     FOOT_INDEX = [4, 8]
     ROOT_INDEX = 0
     threshold = 10*np.pi/180

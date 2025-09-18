@@ -46,6 +46,10 @@ python ase/run.py --test --task HumanoidViewMotion --num_envs 2 --cfg_env ase/da
 If you want to load new motion clips to the character, you can take a look at an example script in `ase/poselib/load_motion.py`.
 
 
+### Visualization
+
+If you want to visualize the motion as .fbx, you can take a look at an example script in `SMPL-to-FBX/Convert.py` to
+
 
 ### Citation
 

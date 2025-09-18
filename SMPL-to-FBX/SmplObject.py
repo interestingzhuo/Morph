@@ -2,7 +2,7 @@ import glob
 import os
 import pickle
 from typing import Dict, Tuple
-
+from glob import glob
 import numpy as np
 
 
@@ -36,20 +36,13 @@ class SmplObjects(object):
 
     def __init__(self, read_path):
         self.files = {}
-        files = open("datasets/physics_optimized_filename_to_test_smpl_pkl_filename.txt").readlines()
-        files = [files[i].strip().split("####")[-1] for i in range(2000)]
-        #paths = sorted(glob.glob(f"{read_path}/*.pkl"))
-        import pdb;pdb.set_trace()
-        paths = [f"{read_path}/{file}.pkl" for file in files]
+        paths = glob("{read_path}/*.pkl")
         for path in paths:
             filename = path.split("/")[-1]
             try:
-                # with open(path, "rb") as fp:
-                #     data = pickle.load(fp)
                 import joblib
                 data = joblib.load(path)
             except:
-                # import pdb;pdb.set_trace()
                 continue
             self.files[filename] = {
                 "smpl_poses": data["smpl_poses"],

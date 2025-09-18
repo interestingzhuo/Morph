@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>Morph: A Motion-free Physics Optimization Framework for Human Motion Generation</h1>
+<h1><img src="images/logo.png" alt="Morph Logo" height="30"> Morph: A Motion-free Physics Optimization Framework for Human Motion Generation</h1>
 
 <div>
     <strong>ICCV 2025</strong>
@@ -24,7 +24,7 @@
 <be>
 
 <div align="center">
-<img src="images/ase_teaser.png" alt="teaser" width="100%">
+<img src="images/morph_overall.jpg" alt="teaser" width="100%">
 </div>
 
 This repository contains the official implementation of **Morph**. Morph is a Motion-free physics optimization framework, comprising a Motion Generator and a Motion Physics Refinement module, for enhancing physical plausibility without relying on costly real-world motion data.

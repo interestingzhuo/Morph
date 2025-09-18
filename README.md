@@ -54,7 +54,7 @@ Over the course of training, the latest checkpoint `Humanoid.pth` will be regula
 along with a Tensorboard log. `--headless` is used to disable visualizations. If you want to view the
 simulation, simply remove this flag. 
 
-## ⚡ Inference
+## ✈️  Inference
 
 To test a trained model, use the following command:
 ```shell

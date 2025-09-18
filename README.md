@@ -62,7 +62,7 @@ python ase/run.py --test --task HumanoidLocationSMPL --num_envs 1 --cfg_env ase/
 ```
 
 
-## ⚡ Motion Data
+## 🏂 Motion Data
 
 Motion clips are located in `ase/data/motions/`. Individual motion clips are stored as `.npy` files.  Motion clips can be visualized with the following command:
 ```
@@ -73,7 +73,7 @@ python ase/run.py --test --task HumanoidViewMotion --num_envs 2 --cfg_env ase/da
 If you want to load new motion clips to the character, you can take a look at an example script in `ase/poselib/load_motion.py`.
 
 
-## ⚡ Visualization
+## 🚀 Visualization
 
 If you want to visualize the motion as .fbx, you can take a look at an example script in `SMPL-to-FBX/Convert.py`.
 

@@ -48,7 +48,7 @@ If you want to load new motion clips to the character, you can take a look at an
 
 ### Visualization
 
-If you want to visualize the motion as .fbx, you can take a look at an example script in `SMPL-to-FBX/Convert.py` to
+If you want to visualize the motion as .fbx, you can take a look at an example script in `SMPL-to-FBX/Convert.py`.
 
 
 ### Citation

@@ -11,7 +11,7 @@
         <a href="https://arxiv.org/abs/2411.14951" target='_blank'>
             <img src="https://img.shields.io/badge/arxiv-report-red">
         </a>
-        <a href="https://github.com/interestingzhuo/Morph" target='_blank'>
+        <a href="https://interestingzhuo.github.io/Morph-Page/" target='_blank'>
             <img src="https://img.shields.io/badge/Project-Page-Green">
         </a>
     </h4>
